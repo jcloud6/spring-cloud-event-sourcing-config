@@ -83,10 +83,10 @@ security:
   enable-csrf: false
   oauth2:
     resource:
-      userInfoUri: http://127.0.0.1:8181/uaa/user
+      userInfoUri: http://139.219.186.140:8181/uaa/user
     client:
-      accessTokenUri: http://127.0.0.1:8181/uaa/oauth/token
-      userAuthorizationUri: http://127.0.0.1:8181/uaa/oauth/authorize
+      accessTokenUri: http://139.219.186.140:8181/uaa/oauth/token
+      userAuthorizationUri: http://139.219.186.140:8181/uaa/oauth/authorize
       clientId: acme
       clientSecret: acmesecret
 eureka:
