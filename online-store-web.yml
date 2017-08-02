@@ -76,7 +76,7 @@ zuul:
       url: http://edge-service:9999
     auth-service:
       path: /user/**
-      url: http://user-service:8181/uaa/user
+      url: http://127.0.0.1:8181/uaa/user
     user-service:
       path: /users/**
 security:
