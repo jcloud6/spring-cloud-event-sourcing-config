@@ -38,6 +38,9 @@ spring:
     username: root
     password: dbpass
     initialize: true
+    test-while-idle: true
+    validation-interval: 5000
+
 eureka:
   instance:
     prefer-ip-address: true
