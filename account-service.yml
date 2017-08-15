@@ -29,10 +29,14 @@ security:
 spring:
   profiles: docker
   datasource:
+    driverClassName: com.mysql.jdbc.Driver
     url: jdbc:mysql://mysql:3306/dev
     username: root
     password: dbpass
     initialize: true
+    test-while-idle: true
+    validation-interval: 5000
+
 security:
   oauth2:
     resource:
