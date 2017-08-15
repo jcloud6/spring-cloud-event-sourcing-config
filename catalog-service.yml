@@ -33,6 +33,7 @@ spring:
     host: redis
     port: 6379
   datasource:
+    driverClassName: com.mysql.jdbc.Driver
     url: jdbc:mysql://mysql:3306/dev?useSSL=false
     username: root
     password: dbpass
